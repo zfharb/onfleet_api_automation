@@ -1,12 +1,8 @@
 package api;
-
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.given;
 
-
 public class Weather {
-
 
     final String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?";
 

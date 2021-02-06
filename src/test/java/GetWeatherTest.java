@@ -37,6 +37,4 @@ public class GetWeatherTest extends BaseTest {
         System.out.println(main.get("temp"));
         Assertions.assertNotNull(main.get("temp"));
     }
-
-
 }
