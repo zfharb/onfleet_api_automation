@@ -7,7 +7,8 @@ if used with mac, then start the commands with ./gradlew
 
 -To execute the test and see the report, run these commands:
 
-git clone https://github.com/zfharb/onfleet_api_automation.git  ###this will clone the repo.
+/*this will clone the repo.*/ <br />
+git clone https://github.com/zfharb/onfleet_api_automation.git
 
 gradle  ###this will get the dependencies.
 
