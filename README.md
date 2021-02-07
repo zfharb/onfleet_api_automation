@@ -7,14 +7,10 @@ if used with mac, then start the commands with ./gradlew
 
 -To execute the test and see the report, run these commands:
 
-//this will clone the repo./
-git clone https://github.com/zfharb/onfleet_api_automation.git
+git clone https://github.com/zfharb/onfleet_api_automation.git  //this will clone the repo.
 
-//this will get the dependencies.
-gradle
+gradle  //this will get the dependencies.
 
-//this will execute the test and prepare the report.
-gradle clean build allureReport
+gradle clean build allureReport   //this will execute the test and prepare the report.
 
-//this will open the report.
-gradle build allureServe
+gradle build allureServe   //this will open the report.
